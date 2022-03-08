@@ -1,9 +1,5 @@
 /*<simulation_settings>
-<ftestbench_cmd>quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off PC -c PC --vector_source="C:/githubProject/AOC_CristianoReginaldo_UFRR_2020/AOC/teste.vwf" --testbench_file="C:/githubProject/AOC_CristianoReginaldo_UFRR_2020/AOC/simulation/qsim/teste.vwf.vht"</ftestbench_cmd>
-<ttestbench_cmd>quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off PC -c PC --vector_source="C:/githubProject/AOC_CristianoReginaldo_UFRR_2020/AOC/teste.vwf" --testbench_file="C:/githubProject/AOC_CristianoReginaldo_UFRR_2020/AOC/simulation/qsim/teste.vwf.vht"</ttestbench_cmd>
-<fnetlist_cmd>quartus_eda --write_settings_files=off --simulation --functional=on --flatten_buses=off --tool=modelsim_oem --format=vhdl --output_directory="C:/githubProject/AOC_CristianoReginaldo_UFRR_2020/AOC/simulation/qsim/" PC -c PC</fnetlist_cmd>
-<tnetlist_cmd>quartus_eda --write_settings_files=off --simulation --functional=off --flatten_buses=off --timescale=1ps --tool=modelsim_oem --format=vhdl --output_directory="C:/githubProject/AOC_CristianoReginaldo_UFRR_2020/AOC/simulation/qsim/" PC -c PC</tnetlist_cmd>
-<modelsim_script>onerror {exit -code 1}
+
 vlib work
 vcom -work work PC.vho
 vcom -work work teste.vwf.vht
